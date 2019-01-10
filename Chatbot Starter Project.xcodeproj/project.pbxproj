@@ -12,7 +12,11 @@
 		8B97F5CA1F5A33C000F997FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC6E4D71F5A292000033301 /* Assets.xcassets */; };
 		BBC217C7EA0AEF49699AA6D5 /* Pods_Chip__Hotel_Booking_Chatbot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E407FAE2CE1FEF74598563 /* Pods_Chip__Hotel_Booking_Chatbot.framework */; };
 		F41265B71FBC88DD00A47B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC6E4DA1F5A292000033301 /* Main.storyboard */; };
+<<<<<<< HEAD
 		F573FDD921E7B93400105526 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573FDD821E7B93400105526 /* GradientView.swift */; };
+=======
+		F573FDB621E7A63600105526 /* OpenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573FDB521E7A63600105526 /* OpenViewController.swift */; };
+>>>>>>> d17bc733dc7c17a847791f4e470e7284418bbebd
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +30,11 @@
 		8BC6E4DC1F5A292000033301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BC6E4DD1F5A292000033301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3E407FAE2CE1FEF74598563 /* Pods_Chip__Hotel_Booking_Chatbot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chip__Hotel_Booking_Chatbot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+<<<<<<< HEAD
 		F573FDD821E7B93400105526 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+=======
+		F573FDB521E7A63600105526 /* OpenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenViewController.swift; sourceTree = "<group>"; };
+>>>>>>> d17bc733dc7c17a847791f4e470e7284418bbebd
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,7 @@
 				8BC6E4DA1F5A292000033301 /* Main.storyboard */,
 				8BC6E4DC1F5A292000033301 /* AppDelegate.swift */,
 				8BC6E4DD1F5A292000033301 /* Info.plist */,
+				F573FDB521E7A63600105526 /* OpenViewController.swift */,
 			);
 			path = "Chatbot Starter Project";
 			sourceTree = "<group>";
@@ -219,7 +228,11 @@
 			files = (
 				8B97F5C81F5A33B800F997FD /* AppDelegate.swift in Sources */,
 				8B97F5C71F5A33B800F997FD /* ViewController.swift in Sources */,
+<<<<<<< HEAD
 				F573FDD921E7B93400105526 /* GradientView.swift in Sources */,
+=======
+				F573FDB621E7A63600105526 /* OpenViewController.swift in Sources */,
+>>>>>>> d17bc733dc7c17a847791f4e470e7284418bbebd
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

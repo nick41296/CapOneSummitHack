@@ -10,6 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+<<<<<<< HEAD
         <!--Qwerty-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -93,9 +94,22 @@
                         <outlet property="messageField" destination="mTV-md-3ZO" id="bRe-HK-6GX"/>
                         <segue destination="5S5-P5-TOj" kind="show" id="Ehi-5L-iiD"/>
                     </connections>
+=======
+        <!--View Controller-->
+        <scene sceneID="KXZ-JT-FBI">
+            <objects>
+                <viewController id="jjE-HC-mpr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kJF-zL-5xI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lhK-PT-bmy"/>
+                    </view>
+>>>>>>> d17bc733dc7c17a847791f4e470e7284418bbebd
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RGD-eu-XEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="478" y="962"/>
         </scene>
         <!--View Controller-->
@@ -123,6 +137,9 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZF-C3-GU8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1729" y="1146"/>
+=======
+            <point key="canvasLocation" x="230" y="285"/>
+>>>>>>> d17bc733dc7c17a847791f4e470e7284418bbebd
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="naI-at-ba3">
@@ -135,12 +152,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="r0e-jD-Z0b"/>
+                        <segue destination="jjE-HC-mpr" kind="show" id="sKj-NH-Nt2"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q30-38-Wfh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-340" y="72"/>
+            <point key="canvasLocation" x="-674" y="285"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
