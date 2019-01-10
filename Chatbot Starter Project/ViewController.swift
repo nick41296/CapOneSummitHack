@@ -11,7 +11,10 @@ import ApiAI
 import AVFoundation
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var messageButton: UIButton!
+    
     @IBOutlet weak var messageField: UITextField!
     @IBOutlet weak var chipResponse: UILabel!
     @IBAction func sendMessage(_ sender: Any) {
@@ -36,6 +39,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        messageButton.layer.cornerRadius = 15
         
     }
 
